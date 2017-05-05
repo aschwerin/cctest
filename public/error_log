@@ -1,0 +1,40 @@
+[17-Sep-2016 06:53:39 UTC] PHP Fatal error:  Class 'Memcached' not found in /home/ccadm/customcoders/vendor/laravel/framework/src/Illuminate/Cache/MemcachedConnector.php on line 74
+[17-Sep-2016 06:58:23 UTC] PHP Fatal error:  Class 'Memcached' not found in /home/ccadm/customcoders/vendor/laravel/framework/src/Illuminate/Cache/MemcachedConnector.php on line 74
+[17-Sep-2016 06:58:56 UTC] PHP Fatal error:  Class 'Predis\Client' not found in /home/ccadm/customcoders/vendor/laravel/framework/src/Illuminate/Redis/Database.php on line 62
+[17-Sep-2016 07:00:40 UTC] PHP Fatal error:  Class 'Predis\Client' not found in /home/ccadm/customcoders/vendor/laravel/framework/src/Illuminate/Redis/Database.php on line 62
+[18-Sep-2016 05:05:20 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Admin\Auth' not found in /home/ccadm/customcoders/app/Http/Controllers/Admin/UserController.php on line 30
+[19-Sep-2016 06:33:51 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Auth\Role' not found in /home/ccadm/customcoders/app/Http/Controllers/Auth/RegisterController.php on line 70
+[20-Sep-2016 06:31:37 UTC] PHP Fatal error:  Class 'Role' not found in /home/ccadm/customcoders/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php on line 859
+[20-Sep-2016 17:17:29 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ccadm/customcoders/storage/framework/views/86114ab4cbc57255cd86d8a289ea78737dd7279e.php on line 17
+[21-Sep-2016 00:29:05 UTC] PHP Fatal error:  Call to undefined function getName() in /home/ccadm/customcoders/storage/framework/views/90ba6be0c6b9cce23eb04b3892edf6cf0a0a4fa4.php on line 377
+[21-Sep-2016 00:30:25 UTC] PHP Fatal error:  Call to undefined function getName() in /home/ccadm/customcoders/storage/framework/views/90ba6be0c6b9cce23eb04b3892edf6cf0a0a4fa4.php on line 377
+[21-Sep-2016 00:31:44 UTC] PHP Fatal error:  Call to undefined function getName() in /home/ccadm/customcoders/storage/framework/views/90ba6be0c6b9cce23eb04b3892edf6cf0a0a4fa4.php on line 380
+[21-Sep-2016 00:31:47 UTC] PHP Fatal error:  Call to undefined function getName() in /home/ccadm/customcoders/storage/framework/views/90ba6be0c6b9cce23eb04b3892edf6cf0a0a4fa4.php on line 380
+[21-Sep-2016 00:31:59 UTC] PHP Fatal error:  Call to undefined function getName() in /home/ccadm/customcoders/storage/framework/views/90ba6be0c6b9cce23eb04b3892edf6cf0a0a4fa4.php on line 380
+[21-Sep-2016 00:38:53 UTC] PHP Fatal error:  Call to undefined function getName() in /home/ccadm/customcoders/storage/framework/views/90ba6be0c6b9cce23eb04b3892edf6cf0a0a4fa4.php on line 379
+[21-Sep-2016 00:38:57 UTC] PHP Fatal error:  Call to undefined function getName() in /home/ccadm/customcoders/storage/framework/views/90ba6be0c6b9cce23eb04b3892edf6cf0a0a4fa4.php on line 379
+[21-Sep-2016 00:40:44 UTC] PHP Fatal error:  Call to undefined function getName() in /home/ccadm/customcoders/storage/framework/views/90ba6be0c6b9cce23eb04b3892edf6cf0a0a4fa4.php on line 379
+[21-Sep-2016 00:46:26 UTC] PHP Fatal error:  Call to undefined function getName() in /home/ccadm/customcoders/storage/framework/views/90ba6be0c6b9cce23eb04b3892edf6cf0a0a4fa4.php on line 379
+[21-Sep-2016 01:23:47 UTC] PHP Parse error:  syntax error, unexpected 'getName' (T_STRING), expecting variable (T_VARIABLE) or '$' in /home/ccadm/customcoders/storage/framework/views/90ba6be0c6b9cce23eb04b3892edf6cf0a0a4fa4.php on line 381
+[22-Sep-2016 06:15:12 UTC] PHP Fatal error:  Class 'Form' not found in /home/ccadm/customcoders/storage/framework/views/a8c83877b2dbe9919bc8603c9420a4d68e70beac.php on line 18
+[22-Sep-2016 18:15:45 UTC] PHP Fatal error:  Call to undefined function App\Http\Controllers\fileExists() in /home/ccadm/customcoders/app/Http/Controllers/CharacterController.php on line 136
+[22-Sep-2016 19:12:54 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/ccadm/customcoders/storage/framework/views/a8c83877b2dbe9919bc8603c9420a4d68e70beac.php on line 33
+[22-Sep-2016 19:14:51 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/ccadm/customcoders/storage/framework/views/a8c83877b2dbe9919bc8603c9420a4d68e70beac.php on line 33
+[22-Sep-2016 19:15:33 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/ccadm/customcoders/storage/framework/views/a8c83877b2dbe9919bc8603c9420a4d68e70beac.php on line 33
+[22-Sep-2016 19:16:32 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/ccadm/customcoders/storage/framework/views/a8c83877b2dbe9919bc8603c9420a4d68e70beac.php on line 33
+[22-Sep-2016 19:17:23 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/ccadm/customcoders/storage/framework/views/a8c83877b2dbe9919bc8603c9420a4d68e70beac.php on line 33
+[22-Sep-2016 19:19:20 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/ccadm/customcoders/storage/framework/views/a8c83877b2dbe9919bc8603c9420a4d68e70beac.php on line 37
+[23-Sep-2016 03:41:29 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ccadm/customcoders/storage/framework/views/01712e57ff51f639449b10b262da7654ae8437eb.php on line 10
+[23-Sep-2016 03:42:37 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ccadm/customcoders/storage/framework/views/01712e57ff51f639449b10b262da7654ae8437eb.php on line 10
+[23-Sep-2016 03:42:51 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ccadm/customcoders/storage/framework/views/01712e57ff51f639449b10b262da7654ae8437eb.php on line 10
+[23-Sep-2016 03:43:43 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ccadm/customcoders/storage/framework/views/01712e57ff51f639449b10b262da7654ae8437eb.php on line 10
+[24-Sep-2016 18:29:20 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ccadm/customcoders/storage/framework/views/d3c404479581d9ac9e7d8a6f8a496028e72557fc.php on line 34
+[24-Sep-2016 18:30:35 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 123731968 bytes) in /home/ccadm/customcoders/storage/framework/views/d3c404479581d9ac9e7d8a6f8a496028e72557fc.php on line 34
+[27-Sep-2016 04:33:47 UTC] PHP Fatal error:  Call to undefined function isEmpty() in /home/ccadm/customcoders/storage/framework/views/d3c404479581d9ac9e7d8a6f8a496028e72557fc.php on line 27
+[27-Sep-2016 04:55:11 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 123469824 bytes) in /home/ccadm/customcoders/storage/framework/views/d3c404479581d9ac9e7d8a6f8a496028e72557fc.php on line 31
+[27-Sep-2016 04:56:22 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 123731968 bytes) in /home/ccadm/customcoders/storage/framework/views/d3c404479581d9ac9e7d8a6f8a496028e72557fc.php on line 13
+[27-Sep-2016 05:11:07 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ccadm/customcoders/storage/framework/views/d3c404479581d9ac9e7d8a6f8a496028e72557fc.php on line 31
+[28-Sep-2016 04:26:47 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/ccadm/customcoders/storage/framework/views/6b7e5951e1b6634791870b2169f1fdb55850947c.php on line 61
+[29-Sep-2016 20:11:02 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Event' not found in /home/ccadm/customcoders/app/Http/Controllers/PostController.php on line 45
+[30-Sep-2016 02:04:06 UTC] PHP Fatal error:  Call to undefined method Illuminate\View\Engines\CompilerEngine::session() in /home/ccadm/customcoders/storage/framework/views/d3c404479581d9ac9e7d8a6f8a496028e72557fc.php on line 13
+[01-Oct-2016 04:15:19 UTC] PHP Fatal error:  Class 'App\Repositories\Comment' not found in /home/ccadm/customcoders/app/Repositories/CommentRepository.php on line 25
