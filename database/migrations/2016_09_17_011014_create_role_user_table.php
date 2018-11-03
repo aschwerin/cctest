@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateCharacterUserTable extends Migration
+class CreateRoleUserTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,25 +13,17 @@ class CreateCharacterUserTable extends Migration
      */
     public function up()
     {
-        Schema::create('character_user', function (Blueprint $table) {
+        Schema::create('role_user', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('user_id')->unsigned();
-            $table->integer('character_id')->unsigned();
+            $table->integer('role_id')->unsigned();
 
             $table->foreign('user_id')->references('id')->on('users')
-<<<<<<< HEAD
-                ->onDelete('cascade');
-            $table->foreign('character_id')->references('id')->on('characters')
-                ->onDelete('cascade');
-
-//            $table->primary(['user_id', 'character_id']);
-=======
                 ->onUpdate('cascade')->onDelete('cascade');
-            $table->foreign('character_id')->references('id')->on('characters')
+            $table->foreign('role_id')->references('id')->on('roles')
                 ->onUpdate('cascade')->onDelete('cascade');
 
-            $table->primary(['user_id', 'character_id']);
->>>>>>> 722419794345f866fdbd874ca81e10e9225f8e00
+            $table->primary(['user_id', 'role_id']);
             $table->timestamps();
         });
     }
@@ -43,6 +35,6 @@ class CreateCharacterUserTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('character_user');
+        Schema::dropIfExists('role_user');
     }
 }
