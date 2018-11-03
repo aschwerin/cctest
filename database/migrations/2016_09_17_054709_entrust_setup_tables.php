@@ -27,9 +27,6 @@ class EntrustSetupTables extends Migration
 
 <<<<<<< HEAD
             $table->foreign('user_id')->references('id')->on('users')
-=======
-            $table->foreign('user_id')->references('id')->on('')
->>>>>>> 722419794345f866fdbd874ca81e10e9225f8e00
                 ->onUpdate('cascade')->onDelete('cascade');
             $table->foreign('role_id')->references('id')->on('roles')
                 ->onUpdate('cascade')->onDelete('cascade');
