@@ -19,19 +19,12 @@ class CreateCharacterUserTable extends Migration
             $table->integer('character_id')->unsigned();
 
             $table->foreign('user_id')->references('id')->on('users')
-<<<<<<< HEAD
                 ->onDelete('cascade');
             $table->foreign('character_id')->references('id')->on('characters')
                 ->onDelete('cascade');
 
 //            $table->primary(['user_id', 'character_id']);
-=======
-                ->onUpdate('cascade')->onDelete('cascade');
-            $table->foreign('character_id')->references('id')->on('characters')
-                ->onUpdate('cascade')->onDelete('cascade');
 
-            $table->primary(['user_id', 'character_id']);
->>>>>>> 722419794345f866fdbd874ca81e10e9225f8e00
             $table->timestamps();
         });
     }

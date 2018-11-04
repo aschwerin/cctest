@@ -102,10 +102,10 @@ class MonsterController extends Controller
                 $destinationPath, $request->file('image')->getClientOriginalName()
             );
 
-            $character->image_name = $request->file('image')->getClientOriginalName();
-            $character->image_path = $destinationPath;
+            $monster->image_name = $request->file('image')->getClientOriginalName();
+            $monster->image_path = $destinationPath;
 
-            $character->update();
+            $monster->update();
         }
 
         return redirect('/monster');
